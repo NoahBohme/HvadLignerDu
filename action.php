@@ -1,7 +1,7 @@
 <?php 
 $navn = $_POST["navn"];
 
-else if ($navn == "Emil" | $navn == "Noah" || $navn == "emil" || $navn == "noah" || $navn == "Alexander" || $navn = "alexander"){
+if ($navn == "Alexander" or $navn = "alexander" || $navn == "Emil" or $navn == "Noah" or $navn == "emil" or $navn == "noah"){
     echo('Du ligner en 1.000.000');
 }
 else {
